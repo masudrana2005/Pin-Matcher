@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #10101B;
+    background: #d5d5f7;
     height: 100vh;
 }
 .container {
@@ -78,6 +78,10 @@ cursor: pointer;
 }
 .blink-me {
 color: #E0B612;
+}
+.button:hover{
+    background-color: #000;
+    transition: all .3s;
 }
 .submit-btn {
     border: none;
